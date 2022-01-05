@@ -663,6 +663,7 @@ hr {
 
 .description .btn:hover {
   color: white;
+  background: none;
 }
 
 .title_left {
