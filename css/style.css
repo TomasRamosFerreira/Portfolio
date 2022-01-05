@@ -939,7 +939,7 @@ hr {
   font-weight: 300;
 }
 
-.timeline a {
+.timeline a.more_details {
   color: white;
   text-transform: uppercase;
   display: block;
@@ -952,7 +952,7 @@ hr {
   float: right;
 }
 
-.timeline a:hover {
+.timeline a.more_details:hover {
   color: white;
   background: #07c;
   border-bottom: 0.35em solid #000;
