@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+	<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Portfolio | Tomás Ferreira</title>
+        <link rel="icon" href="./images/profile_pic.jpg">
+        <!-- Bootstrap CSS -->
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet"> -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
+        <div class="scroll_up_btn">
+            <i class="fas fa-angle-up"></i>
+        </div>
+        <nav class="nav">
+            <div class="menu">
+                <div class="logo">
+                    <a class="nav-link" href="#">
+                        <img src="./images/profile_pic.jpg" alt="Profile picture" class="profile_pic_min">
+                        <span class="link-text">Tomás</span><span class="link-text more_details"> Ferreira</span>
+                        <!--<span class="link-text ">Tomás</span>-->
+                    </a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li>
+                            <a href="#About_me">
+                                <i class="far fa-address-card"></i>
+                                <span class="link-text" key="About"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#progress">
+                                <i class="fas fa-chart-line"></i>
+                                <span class="link-text" key="Progress"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#skills">
+                                <i class="fas fa-laptop-code"></i>
+                                <span class="link-text" key="Skills"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacts">
+                                <i class="far fa-address-book"></i>
+                                <span class="link-text" key="Contacts"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <select name="language" class="lang">
+                                <option class="translate" id="en" value="en">English</option>
+                                <option class="translate" id="pt" value="pt">Portugues</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <span class="navTrigger">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <section class="home">
+                <div class="startinfobox">
+                    <!--<button class="translate" id="en">English</button>
+                    <button class="translate" id="pt">Portugues</button>-->
+                    <h2><span key="Hello"></span><br><span class="highlight"><b>Tomás <span class="more_details">Ramos </span>Ferreira</b></span></h2>
+                    <h3><span key="Im"></span><b><span class="typing"></span></b></h3>
+                    <a href="#About_me" class="btn" key="About"></a>
+                </div>
+            </section>
+            <section class="about dark" id="About_me">
+                <div class="row">
+                    <div class="title_box">
+                        <h1 class="title_left" key="About"></h1>
+                    </div>
+                    <div class="description-containner">
+                        <div class="col">
+                            <div class="info">
+                                <div class="profile">
+                                    <img src="./images/profile_pic.jpg" alt="Profile picture" class="profile_pic">
+                                </div>
+                                <!-- <div class="name">
+                                    <br>
+                                    <h1><b>Tomás Ramos Ferreira</b></h1>
+                                </div>
+                                <div class="age">
+                                    <h2><b>I'm a Programmer.</b></h2>
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="description">
+                                <p key="Description_first_line"></p>
+                                <br>
+                                <p key="Description_second_line"></p>
+                                <br>
+                                <p key="Description_third_line"></p>
+                                <br>
+                                <p key="Description_fourth_line"></p>
+                                <a href="./documents/Tomás Ramos Ferreira CV.pdf" target="blank" class="btn">
+                                    <i class="fas fa-file-alt"></i>
+                                     Curriculum Vitae
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="progress light" id="progress">
+                <div class="row">
+                    <div class="col">
+                        <div id="timeline-content">
+                            <div class=title_box>
+                                <h1 class="title_right" key="Progress"></h1>
+                            </div>
+                            <ul class="timeline">
+                                <li class="event" data-date="2016-2019">
+                                    <h3 key="Computer_Programmer_Certificate"></h3>
+                                    <p key="Computer_Programmer_Certificate_School"></p>
+                                    <a href="https://epcc.pt/novoscursos/funchal/20-23/#programador20" key="More_details"></a>
+                                </li>
+                                <li class="event" data-date="2018-2020">
+                                    <h3 key="FCE"></h3>
+                                    <p key="FCE_scholl"></p>
+                                    <a href="https://www.wsenglish.pt/pt/certificados/" key="More_details"></a>
+                                </li>
+                                <li class="event" data-date="Jun-Aug 2018">
+                                    <h3 key="AMS_internship"></h3>
+                                    <p key="AMS"></p>
+                                    <a href="https://ams.com/ams-start" key="More_details"></a>
+                                </li>
+                                <li class="event" data-date="Jan-Mar 2019">
+                                    <h3 key="Continuation_AMS_internship"></h3>
+                                    <p key="AMS"></p>
+                                    <a href="https://ams.com/ams-start" key="More_details"></a>
+                                </li>
+                                <li class="event" id="date" data-date="2019-now">
+                                    <h3 key="Computer_Science_Licentiate_Degree"></h3>
+                                    <p key="Computer_Science_Licentiate_Degree_School"></p>
+                                    <a href="https://www.ipbeja.pt/CURSOS/ESTIG-EI/Paginas/UnidadesCurriculares.aspx" key="More_details"></a>   
+                                </li>
+                                <li class="event" data-date="2021">
+                                    <h3 key="Erasmus"></h3>
+                                    <p key="Erasmus_School"></p>
+                                    <a href="https://www.vsb.cz/en/study/exchange-students/exchange-programme/courses/fei/" key="More_details"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills dark" id="skills">
+                <div class="title_box">
+                    <h1 class="title_left" key="Skills"></h1>
+                </div>
+                <div class="row">
+                    <div class="skills-containner">
+                        <div class="col-3">
+                            <div class="skills-box">
+                                <div class="skill-title">
+                                    <div class="skill-image">
+                                        <!--<img src="https://www.segredosdatecnologia.com/wp-content/uploads/2019/04/logo-php.png" class="skill-icon"> -->
+                                        <i class="fab fa-php skill-icon"></i>
+                                    </div>
+                                    <h3>PHP</h3>
+                                </div>
+                                <span key="PHP_text"></span>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="skills-box">
+                                <div class="skill-title">
+                                    <div class="skill-image">
+                                        <!-- <img src="https://db4beginners.com/wp-content/uploads/2018/05/images.png" class="skill-icon"> -->
+                                        <i class="fas fa-database skill-icon"></i>
+                                    </div>
+                                    <h3>SQL</h3>
+                                </div>
+                                <span key="SQL_text"></span>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="skills-box">
+                                <div class="skill-title">
+                                    <div class="skill-image">
+                                        <!-- <img src="https://w1.pngwing.com/pngs/136/126/png-transparent-javascript-logo-angularjs-nodejs-computer-programming-web-development-computer-software-jquery-yellow.png" class="skill-icon"> -->
+                                        <i class="fab fa-js-square skill-icon"></i>
+                                    </div>
+                                    <h3>JavaScript</h3>
+                                </div>
+                                <span key="JS_text"></span>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="skills-box">
+                                <div class="skill-title">
+                                    <div class="skill-image">
+                                        <!-- <img src="https://www.w3schools.com/whatis/img_ajax.jpg" class="skill-icon"> -->
+                                        <i class="fas fa-satellite-dish skill-icon"></i>
+                                    </div>
+                                    <h3>AJAX</h3>
+                                </div>
+                                <span key="AJAX_text"></span>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="skills-box">
+                                <div class="skill-title">
+                                    <div class="skill-image">
+                                        <!-- <img src="https://w7.pngwing.com/pngs/510/15/png-transparent-java-programming-computer-programming-programming-language-android-coffee-jar-text-logo-computer-program.png" class="skill-icon"> -->
+                                        <i class="fab fa-java skill-icon"></i>
+                                    </div>
+                                    <h3>Java</h3>
+                                </div>
+                                <span key="Java_text"></span>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="skills-box">
+                                <div class="skill-title">
+                                    <div class="skill-image">
+                                        <!-- <img src="https://i.pinimg.com/originals/e0/de/9a/e0de9ae224f602a7cc3926cee9e8af5b.jpg" class="skill-icon"> -->
+                                        <i class="fab fa-android skill-icon"></i>
+                                    </div>
+                                    <h3>Android</h3>
+                                </div>
+                                <span key="Android_text"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts light" id="contacts">
+                <div class="title_box">
+                    <h1 class="title_right" key="Contacts"></h1>
+                </div>
+                <div class="row">
+                    <div class="contacts-containner">
+                        <div class="col">
+                            <div class="contact-box">
+                                <div class="contact-title">
+                                    <div class="contact-image">
+                                        <i class="fab fa-linkedin"></i>
+                                    </div>
+                                    <h3>Linkedin</h3>
+                                </div>
+                                <span>Tomás Ferreira<br></span>
+                                <a href="https://www.linkedin.com/in/tomasferreira-01" target="blank" key="click_here"></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="contact-box">
+                                <div class="contact-title">
+                                    <div class="contact-image">
+                                        <i class="fas fa-at"></i>
+                                    </div>
+                                    <h3>Gmail</h3>
+                                </div>
+                                <span>tomasrferreira2@gmail.com<br></span>
+                                <a href="mailto:tomasrferreira2@gmail.com" target="blank" key="click_here"></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="contact-box">
+                                <div class="contact-title">
+                                    <div class="contact-image">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </div>
+                                    <h3>Facebook</h3>
+                                </div>
+                                <span>Tomás Ferreira<br></span>
+                                <a href="https://www.facebook.com/tomasrferreira/" target="blank" key="click_here"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="row">
+                    <div class="contact_form">
+                        <h3 key="Sent_email"></h3>
+                        <form class="cf" id="cf">
+                            <input type="text" class="field" id="name" placeholder="" required>
+                            <input type="email" class="field" id="email" placeholder="" required>
+                            <input type="text" class="field" id="subject" placeholder="" required>
+                            <textarea name="message" type="text" class="field area" id="message" placeholder="" required></textarea>
+                            <button value="submit" class="btn button" id="submit" key="submit"></button>
+                        </form>
+                    </div>
+                </div>-->
+            </section>
+            <section class="footer dark">
+                <div class="row">
+                    <div class="col">
+                        <div class="copyright">
+                            <p>@ 2020 Tomás Ramos Ferreira.</p>
+                            <p key="All_rights_reserved"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/4e4c4c7633.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    </body>
+</html>
