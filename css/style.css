@@ -616,6 +616,29 @@ hr {
 #age{
     text-align: center;
 }*/
+.btn {
+  position: relative;
+  background: #07c;
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 2px solid #07c;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: #07c;
+  background: none;
+}
+
 .description {
   margin-top: 40px;
   margin-left: 20px;
@@ -627,26 +650,12 @@ hr {
 }
 
 .description .btn {
-  position: relative;
   background: white;
-  display: inline-block;
-  color: #07c;
-  margin-top: 20px;
-  padding: 10px 30px;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-weight: 500;
-  border-radius: 10px;
   border: 2px solid white;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .description .btn:hover {
   color: white;
-  background: none;
 }
 
 .title_left {
