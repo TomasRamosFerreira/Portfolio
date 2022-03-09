@@ -644,7 +644,7 @@ hr {
   margin-left: 20px;
 }
 
-.description p {
+.description .my_info {
   text-align: left;
   text-indent: 25px;
 }
@@ -1223,7 +1223,7 @@ hr {
   .title_box:hover > .title_left:before, .title_box:hover > .title_right:before {
     width: 100px;
   }
-  .description span {
+  .description .my_info {
     text-align: left;
     text-indent: 0;
   }

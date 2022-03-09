@@ -617,7 +617,7 @@ hr{
 .description {
    margin-top: 40px;
    margin-left: 20px;
-    p {
+    .my_info {
         text-align: left;
         text-indent: 25px;
     }
@@ -1195,7 +1195,7 @@ hr{
     }
 
     .description {
-        span {
+        .my_info {
             text-align: left;
             text-indent: 0;
         }
