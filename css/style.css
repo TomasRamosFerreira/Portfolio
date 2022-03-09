@@ -681,11 +681,28 @@ hr {
   margin: 20px;
 }
 
-.description-containner, .skills-containner, .contacts-containner, .send-form-containner {
+.skills-containner, .contacts-containner, .send-form-containner {
   display: -ms-grid;
   display: grid;
   padding: 0 2rem;
   font-size: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.description-containner {
+  display: -ms-grid;
+  display: grid;
+  padding: 0 2rem;
+  font-size: 1rem;
+}
+
+.description-containner .description-button-containner {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

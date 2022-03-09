@@ -654,13 +654,24 @@ hr{
     margin: 20px;
 }
 
-.description-containner, .skills-containner, .contacts-containner, .send-form-containner {
+.skills-containner, .contacts-containner, .send-form-containner {
     display: grid;
     padding: 0 2rem;
     font-size: 1rem;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.description-containner {
+    display: grid;
+    padding: 0 2rem;
+    font-size: 1rem;
+    .description-button-containner {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .skills-containner, .contacts-containner {
