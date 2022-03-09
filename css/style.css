@@ -1136,7 +1136,7 @@ hr {
     margin: 0;
   }
   .description span {
-    text-align: justify;
+    text-align: left;
   }
   /*section {
         padding: 0;
