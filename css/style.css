@@ -1135,7 +1135,7 @@ hr {
   .container {
     margin: 0;
   }
-  .description p {
+  .description span {
     text-align: center;
   }
   /*section {
@@ -1223,7 +1223,7 @@ hr {
   .title_box:hover > .title_left:before, .title_box:hover > .title_right:before {
     width: 100px;
   }
-  .description p {
+  .description span {
     text-indent: 0;
   }
   .description .btn {
