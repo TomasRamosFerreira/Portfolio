@@ -684,6 +684,11 @@ hr {
 .description-containner, .skills-containner, .contacts-containner, .send-form-containner {
   display: -ms-grid;
   display: grid;
+  padding: 2rem;
+  font-size: 1rem;
+}
+
+.description-containner a, .skills-containner a, .contacts-containner a, .send-form-containner a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -691,8 +696,6 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding: 1rem;
-  font-size: 1rem;
 }
 
 .skills-containner, .contacts-containner {

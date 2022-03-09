@@ -656,11 +656,13 @@ hr{
 
 .description-containner, .skills-containner, .contacts-containner, .send-form-containner {
     display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     font-size: 1rem;
+    a {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .skills-containner, .contacts-containner {
