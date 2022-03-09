@@ -658,11 +658,9 @@ hr{
     display: grid;
     padding: 0 2rem;
     font-size: 1rem;
-    a {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .skills-containner, .contacts-containner {
@@ -1198,13 +1196,13 @@ hr{
 
     .description {
         span {
-            //text-align: center;
+            text-align: left;
             text-indent: 0;
         }
         .btn {
-            align-items: center;
+            /*align-items: center;
             text-align: center;
-            justify-content: center;
+            justify-content: center;*/
             font-size: .75rem;
         }
     }
